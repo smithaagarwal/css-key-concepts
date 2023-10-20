@@ -1,0 +1,21 @@
+html {
+    background: cadetblue;
+}
+header { 
+	font: 12px Arial, Helvetica, sans-serif; 
+	color: #CCCCCC; 
+	background: #000000 url(surgery.png) no-repeat center bottom; 
+	margin: 0px; 
+    height: 50px;
+	}
+
+nav {
+    background: transparent url(surgery.png) no-repeat center bottom; 
+
+}
+	
+img {
+    width: 70%;
+    height: 20%;
+}
+
