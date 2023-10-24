@@ -15,6 +15,10 @@ nav {
 
 .search-container {
     grid-column: 2/-1;
+    display: grid;
+    row-gap: 10px;
+    padding: 20px;
+    
 }
 
 .covid-restriction {
@@ -45,4 +49,47 @@ header a {
   img:hover {
     width: 50%;
   }
+
+  video {
+    width: 30%;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+  }
+  video:hover {
+    width: 50%;
+  }
+
+  #site-search  {
+    display: block;
+    width: 50%;
+    border: 3px inset #123;
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+    outline: none;
+    color: #165462;
+    transition: width .35s ease-in-out;
+  }
+  
+  #site-search:focus {
+    border: 3px inset #123;
+    width: 75%;
+  }
+  
+  button {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #123;
+    background: #123;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    font-size: 15px;
+
+  }
+[for="site-search"] {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
   
