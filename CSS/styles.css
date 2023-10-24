@@ -1,21 +1,48 @@
-html {
-    background: cadetblue;
+body {
+display: grid;
+grid-template-columns: 70% 30%;
+gap: 10px;
+background-color: aliceblue;
+} 
+
+header {
+    grid-column: 1/-1;
 }
-header { 
-	font: 12px Arial, Helvetica, sans-serif; 
-	color: #CCCCCC; 
-	background: #000000 url(surgery.png) no-repeat center bottom; 
-	margin: 0px; 
-    height: 50px;
-	}
 
 nav {
-    background: transparent url(surgery.png) no-repeat center bottom; 
-
-}
-	
-img {
-    width: 70%;
-    height: 20%;
+    grid-column: 2/-1;
 }
 
+.search-container {
+    grid-column: 2/-1;
+}
+
+.covid-restriction {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+header a {
+    display: grid;
+    color: #123;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 200;
+    text-decoration: none;
+    font-size: 3rem;
+    text-align: center;
+  }
+  header a:hover {
+    font-weight:bold ;
+    color: rgb(62, 90, 118);
+  }
+
+  img {
+    width: 30%;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+  }
+  
+  img:hover {
+    width: 50%;
+  }
+  
