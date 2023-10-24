@@ -17,7 +17,7 @@ nav {
     grid-column: 2/-1;
     display: grid;
     row-gap: 10px;
-    padding: 20px;
+    padding: 40px;
     
 }
 
@@ -39,25 +39,22 @@ header a {
     color: rgb(62, 90, 118);
   }
 
-  img {
-    width: 30%;
-    transition-property: width;
-    transition-duration: 3s;
-    transition-timing-function: linear;
-  }
-  
-  img:hover {
-    width: 50%;
+  nav ol {
+    display: grid;
+    list-style: none;
+    row-gap: 50px;
   }
 
-  video {
-    width: 30%;
-    transition-property: width;
-    transition-duration: 3s;
-    transition-timing-function: linear;
+  nav ol li a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
   }
-  video:hover {
-    width: 50%;
+
+  nav ol li a:hover {
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(62, 90, 118);
   }
 
   #site-search  {
@@ -92,4 +89,26 @@ header a {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
+
+img {
+  width: 30%;
+  transition-property: width;
+  transition-duration: 3s;
+  transition-timing-function: linear;
+}
+
+img:hover {
+  width: 50%;
+}
+
+video {
+  width: 30%;
+  transition-property: width;
+  transition-duration: 3s;
+  transition-timing-function: linear;
+}
+video:hover {
+  width: 50%;
+}
+
   
