@@ -4,7 +4,7 @@
 }
 
 body {
-  display: block;
+  display: grid;
   background-color: aliceblue;
 }
 header {
@@ -24,7 +24,8 @@ header a {
   text-align: center;
 }
 header a:hover {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:bold ;
+  color: rgb(62, 90, 118);
 }
 [href^="tel"] {
   font-size: small;
@@ -34,6 +35,7 @@ nav ol {
   display: grid;
   margin-left: 75%;
   list-style: none;
+  row-gap: 50px;
 }
 
 nav ol li {
@@ -48,6 +50,8 @@ nav ol li a {
 }
 nav ol li a:hover {
   font-size: x-large;
+  font-weight: bold;
+  color: rgb(62, 90, 118);
 }
 
 img {
@@ -61,6 +65,46 @@ img:hover {
   width: 50%;
 }
 
+.search-container {
+float:right;
+display: grid;
+row-gap: 10px;
+padding: 50px;
+position: relative;
+margin-left: 75%;
+width: 100%;
+
+}
+#site-search  {
+    display: block;
+    width: 25%;
+    border: 3px solid #123;
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+    outline: none;
+    color: #165462;
+  }
+  
+  #site-search:focus{
+    color: #123;
+  }
+  
+  button {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #123;
+    background: #123;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    font-size: 15px;
+
+  }
+[for="site-search"] {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
 video {
   width: 30%;
   transition-property: width;
