@@ -21,10 +21,33 @@ nav {
     
 }
 
+@keyframes blinkingA {
+  0% {
+    border: 5px dashed rgb(213, 38, 38);
+    color: rgb(79, 229, 229);
+  }
+  100% {
+    border: 5px inset rgb(55, 55, 111);
+    color: #123;
+    
+  }
+}
+
 .covid-restriction {
     grid-row-start: 2;
     grid-row-end: 3;
+    display: grid;
+    padding: 15px;
+    margin: 5%;
+    border-radius: 5px;
+    border-color: rgb(8, 35, 62);
+    border-style: groove;
+    font-family: 'Courier New', Courier, monospace;
+    animation: blinkingA 4s infinite ;
+    width: 90%;
+    
 }
+
 header a {
     display: grid;
     color: #123;
@@ -90,6 +113,15 @@ header a {
     font-weight: bold;
 }
 
+.covid-restriction h3 {
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center; ;
+}
+em {
+  font-weight: bold;
+}
+
 img {
   width: 30%;
   transition-property: width;
@@ -110,5 +142,7 @@ video {
 video:hover {
   width: 50%;
 }
+
+
 
   
