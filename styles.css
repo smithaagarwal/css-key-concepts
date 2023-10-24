@@ -1,73 +1,72 @@
-*{
-padding: 0;
-margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    display:block ;
-    background-color:aliceblue;
+  display: block;
+  background-color: aliceblue;
 }
 header {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:aliceblue;
-    color: white;
-    height: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aliceblue;
+  color: white;
+  height: 100px;
 }
 
-header a{
-    display: grid;
-    color: #123;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 200;
-    text-decoration: none;
-    font-size: 3rem;
-    text-align: center;
+header a {
+  display: grid;
+  color: #123;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 200;
+  text-decoration: none;
+  font-size: 3rem;
+  text-align: center;
 }
 header a:hover {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-[href^="tel"] {
-    
-    font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-nav ol{
-    float: none;
-    display: grid;
-    margin-left: 75%;   
-    list-style: none;
-    }
-    
-    nav ol li{
-    padding-left: 15%;
-    ;
-    }
+[href^="tel"] {
+  font-size: small;
+}
+nav ol {
+  float: none;
+  display: grid;
+  margin-left: 75%;
+  list-style: none;
+}
 
-    nav ol li a{
-        text-decoration: none;
-        font-family: 'Courier New', Courier, monospace;
-        font-size:medium ;
-        padding: 20px;
-        }
-    nav ol li a:hover{
-        font-size: x-large;
-    }    
+nav ol li {
+  padding-left: 15%;
+}
+
+nav ol li a {
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  padding: 20px;
+}
+nav ol li a:hover {
+  font-size: x-large;
+}
+
 img {
-    width: 30%;
-    transition-property: width;
-    transition-duration: 3s;
-    transition-timing-function: linear;
+  width: 30%;
+  transition-property: width;
+  transition-duration: 3s;
+  transition-timing-function: linear;
 }
 
 img:hover {
-    width: 50%;
+  width: 50%;
 }
 
 video {
-    width: 30%;
-    transition-property: width;
-    transition-duration: 3s;
-    transition-timing-function: linear;
+  width: 30%;
+  transition-property: width;
+  transition-duration: 3s;
+  transition-timing-function: linear;
 }
 video:hover {
-    width: 50%
+  width: 50%;
 }
