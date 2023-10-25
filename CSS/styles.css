@@ -92,7 +92,11 @@ header a {
     font-weight: 500;
   }
   header a:hover {
+    font-weight: bold;
     color: rgb(62, 90, 118);
+  }
+  [href^="tel"] {
+    font-size: medium;
   }
 
   nav ol {
